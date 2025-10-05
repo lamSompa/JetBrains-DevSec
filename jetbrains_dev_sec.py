@@ -13,6 +13,7 @@ SECRET_PATTERNS = [
     re.compile(r'secret[_-]?key\s*=\s*[\'"][^\'"]+[\'"]', re.IGNORECASE),
     re.compile(r'password\s*=\s*[\'"][^\'"]+[\'"]', re.IGNORECASE),
 ]
+aws_key = "AKIA1234567890EXAMPLE"
 
 def shannon_entropy(data: str) -> float:
     """Calculate Shannon entropy of a string."""
