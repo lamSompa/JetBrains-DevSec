@@ -1,0 +1,4 @@
+gitpython
+openai
+pytest
+pytest-cov
